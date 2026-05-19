@@ -1391,7 +1391,7 @@ textarea,
 
 #FAQs {
   background: var(--primary-color);
-  min-height: auto !important;
+  min-height: 100svh !important;
 }
 
 .faqs-container {
@@ -1447,6 +1447,12 @@ textarea,
 .faq-answer p {
   margin: 1rem 0;
 }
+
+.cont-bold{
+  color: red;
+  font-weight: 600;
+}
+
 /* CONTACT */
 
 #contactus {
